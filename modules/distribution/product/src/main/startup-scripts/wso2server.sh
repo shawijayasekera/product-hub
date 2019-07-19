@@ -316,6 +316,7 @@ do
     -Dorg.wso2.ignoreHostnameVerification=true \
     -DworkerNode=false \
     -DDEPLOYMENT_TYPE=external_gateway \
+    -DENVIRONMENT_TYPE=production \
     org.wso2.carbon.bootstrap.Bootstrap $*
     status=$?
 done
